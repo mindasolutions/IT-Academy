@@ -23,6 +23,11 @@ public class Ferrari extends Car {
         System.out.println("You are use wipers and fluid and clean front window");
     }
 
+    @Override
+    protected void changeTires() {
+        System.out.println("I am changing my ferrari tires for winter");
+    }
+
     //question: which statement is true: hide or override?
     //answer: hide
 
