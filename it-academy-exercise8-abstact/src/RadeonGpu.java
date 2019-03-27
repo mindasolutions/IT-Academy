@@ -5,7 +5,8 @@ public class RadeonGpu extends Gpu {
     }
 
     @Override
-    String getModel() {
-        return "Radeon R700";
+    public String toString() {
+        return "Radeon Graphic card " +
+                getG3dMark();
     }
 }

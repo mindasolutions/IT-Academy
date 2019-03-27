@@ -5,7 +5,8 @@ public class IntelProcessor extends Processor {
     }
 
     @Override
-    String getModel() {
-        return "Intel Core i5-9600K";
+    public String toString() {
+        return "Intel Processor " +
+                getMhz();
     }
 }

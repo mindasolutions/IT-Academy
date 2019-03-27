@@ -21,7 +21,7 @@ public class CompuyterFactory {
 
     public String toString(){
 
-        return "You successfully configure Your computer with " + proc.getModel() + ", " + proc.getMhz() + " MHz processor and " + gpu.getModel() + " with " + gpu.getG3dMark() + " points in G3dMark.";
+        return "You successfully configure Your computer with " + proc + " MHz processor and " + gpu + " points in G3dMark.";
     };
 
 }

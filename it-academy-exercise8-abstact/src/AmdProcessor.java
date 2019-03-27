@@ -6,7 +6,8 @@ public class AmdProcessor extends Processor {
     }
 
     @Override
-    String getModel() {
-        return "AMD Ryzen 5 2600";
+    public String toString() {
+        return "AMD Processor " +
+                getMhz();
     }
 }

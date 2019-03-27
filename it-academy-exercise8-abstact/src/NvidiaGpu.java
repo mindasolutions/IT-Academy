@@ -6,7 +6,8 @@ public class NvidiaGpu extends Gpu {
     }
 
     @Override
-    String getModel() {
-        return "NVidia TITAN V ";
+    public String toString() {
+        return "nVidia Graphic card " +
+                getG3dMark();
     }
 }
