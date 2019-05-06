@@ -1,3 +1,5 @@
 */docs/*
 */out/*
 */.idea/workspace.xml
+.idea/
+*.iml
